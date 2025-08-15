@@ -98,12 +98,15 @@
             border: none;
         }
         .profile-photo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 5px solid var(--primary-color);
-            margin-bottom: 20px;
-        }
+  width: 150px; /* Genişliği ayarlayabilirsiniz */
+  height: 150px; /* Yüksekliği ayarlayabilirsiniz */
+  border-radius: 50%; /* Bu kod fotoğrafı yuvarlak yapar */
+  object-fit: cover; /* Bu kod resmin orantılı kalmasını sağlar */
+}
+
+.hero-content {
+  text-align: center; /* İçeriği ortalamak için */
+}
 
         /* 2. Geri Sayım */
         #countdown-timer {
